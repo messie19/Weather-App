@@ -5,13 +5,16 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-  background: #222;
+  /* background: #C1E3FE; */
+  background-image: url('https://images.unsplash.com/photo-1620385019253-b051a26048ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card{
   width: 90%;
   background: linear-gradient(135deg,
-                              #00feba,
+                              #C1E3FE,
                               #5b548a);
  max-width: 470px; 
  color: #fff;
@@ -98,7 +101,7 @@ body{
 }
 
 .error{
-  text-align: left;
+  text-align: right;
   margin-left: 10px;
   font-size: 14px;
   margin-top: 10px;
